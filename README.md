@@ -1,106 +1,65 @@
-# 🎨 PixelPerfect
+# PixelPerfect
 
-> A free, open-source visual comparison tool for designers and developers. Compare your design mockups with implementations pixel-by-pixel.
+A visual comparison tool for detecting pixel-level differences between design mockups and their implementations.
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/pixel-perfect?style=social)](https://github.com/yourusername/pixel-perfect)
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://yourusername.github.io/pixel-perfect)
+## Overview
 
-![PixelPerfect Demo](assets/demo.gif)
+PixelPerfect helps designers and developers ensure that implementations accurately match design specifications. Upload two images and instantly see where they differ, with a precise similarity score and multiple visualization modes.
 
-## ✨ Features
+## Features
 
-- 🎯 **Pixel-Perfect Comparison** - Detect even the smallest visual differences
-- 📊 **Similarity Score** - Get an accurate percentage of how similar your images are
-- 👁️ **Multiple View Modes**
-  - Overlay slider view
-  - Side-by-side comparison
-  - Difference highlighting
-- 📥 **Drag & Drop Upload** - Easy and intuitive image upload
-- ⬇️ **Export Results** - Download comparison images
-- 🎨 **Beautiful UI** - Modern, responsive design
-- 🔒 **100% Private** - All processing happens in your browser
-- 💯 **Free Forever** - No API costs, no subscriptions
+- **Accurate comparison** - Pixel-by-pixel analysis with similarity scoring
+- **Multiple view modes** - Overlay slider, side-by-side, and difference highlighting
+- **Privacy focused** - All processing happens locally in your browser
+- **Simple to use** - Drag and drop images, no account required
+- **Export results** - Download comparison images for documentation
 
-## 🚀 Demo
+## Use Cases
 
-Try it live: [https://yourusername.github.io/pixel-perfect](https://yourusername.github.io/pixel-perfect)
+### Design Quality Assurance
+Upload your Figma mockup alongside a screenshot of the live implementation. Quickly identify spacing inconsistencies, color mismatches, or font size differences that might otherwise go unnoticed.
 
-## 📖 Use Cases
+### Client Handoff
+Provide objective metrics when delivering projects. Instead of subjective assessments, show clients a 98% similarity score with highlighted differences to demonstrate accuracy.
 
-- **Design QA** - Verify implementations match design mockups
-- **Visual Regression Testing** - Detect unintended visual changes
-- **Design Handoff** - Validate developer implementations
-- **Client Approval** - Show objective comparison data
-- **Responsive Testing** - Compare designs across breakpoints
+### Responsive Design Testing
+Compare the same component across different breakpoints to ensure consistency. Verify that your mobile implementation maintains the same visual hierarchy as desktop.
 
-## 🛠️ Tech Stack
+### Visual Regression Testing
+Before deploying updates, compare new screenshots against your baseline to catch unintended visual changes. Particularly useful for component library updates.
 
-- **Vanilla JavaScript** - No frameworks, just pure JS
-- **Canvas API** - For image manipulation
-- **Resemble.js** - Pixel comparison algorithm
-- **CSS3** - Modern styling with custom properties
-- **GitHub Pages** - Free hosting
+### Design System Compliance
+Ensure that team members are correctly implementing shared components. Compare their work against the canonical design system examples to maintain consistency.
 
-## 📦 Local Development
+## Getting Started
+
+Simply visit the live demo and start comparing images. No installation or setup required.
+
+**Live Demo:** [https://astolfu.github.io/pixel_perfect](https://astolfu.github.io/pixel_perfect)
+
+## Technical Details
+
+Built with vanilla JavaScript and the Canvas API. Uses Resemble.js for the comparison algorithm. Designed to run entirely client-side with no backend dependencies.
+
+## Local Development
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/pixel-perfect.git
+git clone https://github.com/Astolfu/pixel_perfect.git
+cd pixel_perfect
+```
 
-# Navigate to directory
-cd pixel-perfect
+Open `index.html` in your browser or run a local server:
 
-# Open in browser (no build step required!)
-# Just open index.html in your browser
-# Or use a local server:
+```bash
 npx serve
 ```
 
-## 🌐 Deployment
+No build process required.
 
-This project is designed to be deployed on GitHub Pages:
+## Contributing
 
-1. Fork this repository
-2. Go to Settings → Pages
-3. Select `main` branch as source
-4. Your site will be live at `https://yourusername.github.io/pixel-perfect`
+Bug reports and feature suggestions are welcome. Please open an issue to discuss potential changes.
 
-## 📊 Analytics (Optional)
+## License
 
-To track usage statistics:
-
-1. Sign up for [GoatCounter](https://www.goatcounter.com/) (free)
-2. Uncomment the analytics script in `index.html`
-3. Replace `YOURCODE` with your GoatCounter code
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-- 🐛 Report bugs
-- 💡 Suggest features
-- 🔧 Submit pull requests
-
-## 📝 License
-
-MIT License - feel free to use this project for anything!
-
-## ⭐ Show Your Support
-
-If you find this tool useful, please consider:
-- Giving it a star on GitHub
-- Sharing it with your design/dev community
-- Contributing improvements
-
-## 🙏 Acknowledgments
-
-- [Resemble.js](https://github.com/rsmbl/Resemble.js) - Image comparison library
-- Inspired by the need for simple, free visual comparison tools
-
-## 📬 Contact
-
-Have questions or feedback? Open an issue or reach out!
-
----
-
-**Made with ❤️ for the design and development community**
+MIT
