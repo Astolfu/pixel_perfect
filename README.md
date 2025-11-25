@@ -5,6 +5,8 @@ A visual comparison tool for detecting pixel-level differences between design mo
 ## Overview
 
 PixelPerfect helps designers and developers ensure that implementations accurately match design specifications. Upload two images and instantly see where they differ, with a precise similarity score and multiple visualization modes.
+
+Check video on demostration:
 <a href="https://www.youtube.com/watch?v=htHVuD2t5Uw" target="_blank">
   <img src="https://img.youtube.com/vi/htHVuD2t5Uw/0.jpg" width="400" alt="Video">
 </a>
